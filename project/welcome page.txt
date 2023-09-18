@@ -1,0 +1,9 @@
+ Button goTOloginbtn =(Button) findViewById(R.id.goToLoginBtn);
+
+        goTOloginbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this,the_of_the_login_activity.class);
+                startActivity(i);
+            }
+        });
