@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HyperOne</string>
+    <string name="mode0">LightMode</string>
+    <string name="mode1">DarkMode</string>
+</resources>
